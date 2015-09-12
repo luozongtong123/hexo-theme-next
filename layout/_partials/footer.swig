@@ -5,7 +5,7 @@
   <span class="with-love">
     <i class="icon-next-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  <span class="author" itemprop="copyrightHolder">{% if theme.about %}<a class="author-link" href={{config.root}}about>{% endif %}{{ config.author }}</a></span>
 </div>
 
 <div class="powered-by">
