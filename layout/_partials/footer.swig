@@ -19,4 +19,18 @@
   </a>
 </div>
 
+<div class="powered-by">
+</div>
+
+<div class="theme-info">
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    </script>
+    <span id="busuanzi_container_site_pv">
+        访问量 <span id="busuanzi_value_site_pv"></span></a> 次
+    </span>
+    <span id="busuanzi_container_site_pv">
+        访客数 <span id="busuanzi_value_site_uv"></span></a> 人
+    </span>
+</div>
+
 {% block footer %}{% endblock %}
